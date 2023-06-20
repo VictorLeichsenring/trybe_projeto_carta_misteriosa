@@ -11,7 +11,6 @@ function criarCarta() {
         const element = document.createElement('span');
         element.innerText = elementText;
         cartaGerada.appendChild(element);
-        input.value = '';
     }
 }
 
